@@ -1,0 +1,33 @@
+<div class="seccion">
+    <b>Educacion</b>
+    <div class="btn-edit-sec" onclick="agregar_educ()" style ="display: none"><a href="#" class="btn-right" aria-label="edit"><i class="fas fa-plus"></i></a></div>
+    <br clear="right">
+    <p></p>
+    <div id="miDiv">
+      <div id="estudio_0" class="Estudios">
+         <img id="logoED0" src="assets/imagenes/Logo-roscelli.jpg" alt="Nueva imagen" style="border: 1px solid rgb(10,10,10); float: left; margin-right: 5px; height: 70px; width: 70px; font-size: 18px;">
+          <aside>
+           <b id="est0" style="font-size: 18px;">Colegio Agustin Roscelli</b>
+           <div class="btn-edit-sec" id="btn-elim-educ" onclick="eliminar_educ0()" style ="display: none"><a href="#" class="btn-right" aria-label="edit"><i class="fas fa-trash-alt"></i></a></div>
+           <div class="btn-edit-sec" id="btn-camb-educ" onclick="cambiar_educ0()" style ="display: none"><a href="#" class="btn-right" aria-label="edit"><i class="fa fa-pen"></i></a></div>       
+           <p id="text-est0" style="font-size: 15px; margin: 0px 5px;">Jardin de Infantes - Estudios Primarios</p>
+           <p id="text-año-est0"style="font-size: 12px; margin: 0px 5px;">1986 - 1994</p>
+           <p></p>
+          </aside>
+          <br>
+      </div>
+      <div id="estudio_1"class="Estudios">
+         <img id="logoED1" src="assets/imagenes/eet n° 3-0.png" alt="Nueva imagen" style="border: 1px solid rgb(10,10,10); float: left; margin-right: 5px; height: 70px; width: 70px; font-size: 18px;">
+          <aside>
+            <b id="est1" style="font-size: 18px;">Escuela Tecnica N° 3 Fray Luis Beltran (Los Hornos)</b>
+            <div class="btn-edit-sec" id="btn-elim-educ" onclick="eliminar_educ1()" style ="display: none"><a href="#" class="btn-right" aria-label="edit"><i class="fas fa-trash-alt"></i></a></div>
+            <div class="btn-edit-sec" id="btn-camb-educ" onclick="cambiar_educ1()" style ="display: none"><a href="#" class="btn-right" aria-label="edit"><i class="fa fa-pen"></i></a></div>
+            <p id="text-est1" style="font-size: 15px; margin: 0px 5px;">Estudios Secundarios</p>
+            <p id="text-año-est1" style="font-size: 12px; margin: 0px 5px;">1995 - 2001</p>
+            <p></p>
+          </aside>
+          <br>
+      </div>
+    </div>
+    <input type="file" id="imagenInput" accept="image/*" aria-label="BtnImg"  onchange="cargarImagen(event)">
+</div>
